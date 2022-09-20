@@ -1,9 +1,12 @@
 package main
 
 import (
-	"fmt"
+    "flag"
+    "fmt"
 )
 
 func main() {
-	fmt.Println("Hello world")
+    flag.Parse()
+    arg := flag.Arg(0)
+    fmt.Printf("Hello %s\n", arg)
 }
