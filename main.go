@@ -1,7 +1,7 @@
 package main
 
 import (
-    "flag" // 追加する
+    "flag"
     "fmt"
 )
 
